@@ -8,26 +8,39 @@
 .nav-page {
   min-height: 100vh;
   overflow: hidden;
-  padding: 2rem;
   font-family: Inter, system-ui;
   --tw-text-opacity: 1;
   color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+.hope {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1280px;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 .nav-space {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
 }
 .nav-logo-wrapper {
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .nav-link {
-  margin: 0 25px;
+  margin: 0 20px;
+}
+
+.nav-links {
 }
 
 .nav-links-hover {
@@ -43,7 +56,7 @@
 .nav-link-sighup {
   border-color: rgb(100 21 255);
   padding: 0.75rem 2rem;
-  border-radius: 0.25rem;
+  border-radius: 90px;
   border-bottom-width: 0px;
   --tw-bg-opacity: 1;
   background-color: rgb(100 21 255 / var(--tw-bg-opacity));
@@ -63,4 +76,31 @@
 .logo-nav {
   width: 40px;
   height: 40px;
+}
+
+.introduction {
+  display: flex;
+  padding: 7rem 0;
+}
+
+.introduction-adjusting {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction-about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: rgb(26 32 44);
+  margin-bottom: 3rem;
+}
+
+.text-purple {
+  color: rgb(100 21 255);
+}
+
+.introduction-img {
+  width: 80%;
+  display: flex;
 }
