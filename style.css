@@ -10,6 +10,7 @@
   font-family: Inter, system-ui;
   --tw-text-opacity: 1;
   color: rgb(36 62 99 / var(--tw-text-opacity));
+  margin: 0 auto;
 }
 
 .hope {
@@ -41,9 +42,6 @@ a {
 
 .nav-link {
   margin: 0 20px;
-}
-
-.nav-links {
 }
 
 .nav-links-hover {
@@ -90,6 +88,9 @@ a {
   display: flex;
   flex-direction: column;
   width: 60%;
+  height: auto;
+  justify-content: space-between;
+  margin: auto 0;
 }
 
 .introduction-about-title {
@@ -103,6 +104,7 @@ a {
 .introduction-about-subtitle {
   font-size: 19px;
   font-weight: 400;
+ padding-bottom: 25px;
 }
 
 .introduction-about-wrapper {
@@ -112,8 +114,6 @@ a {
   text-align: center;
 }
 
-input {
-}
 
 .introduction-about-email {
   padding-top: 1.5rem;
@@ -126,9 +126,9 @@ input {
   border-color: rgb(226, 232, 240);
   border-style: solid;
   font-family: inherit;
-  color: rgb(226, 232, 240);
   font-weight: 500;
   font-family: Inter, system-ui;
+  
 }
 
 .introduction-about-button {
@@ -156,6 +156,31 @@ input {
  
 }
 
+
+.introduction-about-vouches{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.introduction-about-vouches-text{
+ margin-top: 3rem;
+ font-size: 14px;
+ font-weight: 700;
+ color: #a0aec0;
+ padding: 15px 0;
+}
+
+.introduction-about-vouches-logo{
+  width: 85%;
+  filter: grayscale(1) invert(1);
+}
+
+
+
+
 .text-purple {
   color: rgb(100 21 255);
 }
@@ -167,3 +192,4 @@ input {
 figure {
   margin: 0 auto;
 }
+
