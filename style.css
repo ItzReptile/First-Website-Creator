@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0 auto;
-  margin: 0 auto;
+
   font-family: Inter, system-ui;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav-link {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .nav-links {
@@ -55,9 +55,9 @@
 
 .nav-link-sighup {
   border-color: rgb(100 21 255);
-  padding: 0.75rem 2rem;
-  border-radius: 90px;
-  border-bottom-width: 0px;
+  padding: 0.65rem 2rem;
+  border-radius: 100px;
+  border-bottom-width: 1px;
   --tw-bg-opacity: 1;
   background-color: rgb(100 21 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -84,8 +84,8 @@
 }
 
 .introduction-adjusting {
-  display: flex;
-  flex-direction: column;
+
+  width: 40%;
 }
 
 .introduction-about-title {
@@ -101,6 +101,9 @@
 }
 
 .introduction-img {
-  width: 80%;
-  display: flex;
+  width: 100%;
+}
+
+figure{
+  margin: 0 auto;
 }
