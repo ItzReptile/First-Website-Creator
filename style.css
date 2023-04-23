@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0 auto;
-
-  font-family: Inter, system-ui;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-page {
@@ -34,6 +33,10 @@
 .nav-logo-wrapper {
   display: flex;
   align-items: start;
+}
+
+a {
+  font-family: Inter, system-ui;
 }
 
 .nav-link {
@@ -109,26 +112,48 @@
   text-align: center;
 }
 
+input {
+}
+
 .introduction-about-email {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5em;
   padding-right: 16rem;
-  border-radius: 54px;
+  border-radius: 58px;
   font-size: 100%;
   width: 100%;
   text-align: center;
-  font-weight: 500;
-  color: rgb(226, 232, 240);
   border-color: rgb(226, 232, 240);
   border-style: solid;
+  font-family: inherit;
+  color: rgb(226, 232, 240);
+  font-weight: 500;
+  font-family: Inter, system-ui;
 }
-
 
 .introduction-about-button {
   right: 0px;
   top: 0px;
   bottom: 0px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 58px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.3em;
+  background-color: rgb(100 21 255);
+  font-family: Inter, system-ui;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-size: 18px;
+  width: 40%;
+  font-weight: 600;
+  margin: 6px;
+  cursor: pointer;
+ 
 }
 
 .text-purple {
