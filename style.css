@@ -405,3 +405,22 @@ WORK
   transition: all 300ms ease; 
   cursor: pointer;
 }
+
+/*
+
+STEPS
+
+*/
+
+.steps{
+  display: flex;
+}
+
+.steps-img-container
+{
+
+}
+
+.steps-img{
+  width: 600px;
+}
