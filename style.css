@@ -18,10 +18,13 @@
 .blobv2{
   pointer-events: none;
   position: absolute;
-  right: -6rem;
-  bottom: 0 auto;
+  left: -8.5rem;
+  bottom: 2rem;
+  z-index: -9;
+  height: 16rem;
   width: 16rem;
-  opacity: 0.25;
+  opacity: 0.05;
+
 }
 
 
@@ -85,8 +88,15 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgb(100 21 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(247 250 252 / var(--tw-text-opacity));
+  color: rgb(247 250 252);
+  animation: opacity 500ms ease;
 }
+
+.nav-link-sighup:hover{
+  background-color: #2e2e2e;
+  
+}
+
 
 .nav-text {
   text-decoration: none;
@@ -174,6 +184,7 @@ a {
   font-weight: 600;
   margin: 6px;
   cursor: pointer;
+  letter-spacing: 0.5px;
 }
 
 .introduction-about-vouches {
@@ -305,6 +316,7 @@ FEATURES
   margin-left: 0.5rem;
   margin-top: 0.5rem;
   line-height: 2;
+  font-weight: 500;
 }
 
 .features-titlev2 {
@@ -317,4 +329,51 @@ FEATURES
 .feautres-subtitle {
   color: rgb(124 139 161);
   margin: 2px;
+}
+
+/*
+
+WORK
+
+*/
+
+.work{
+  padding: 4rem 0;
+  margin: 6rem 0;
+}
+
+
+.work-column{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work-container{
+  display: flex;
+}
+
+.work-img{
+ width: 640px;
+ border-style: solid;
+ border-color: #a0aec0;
+ border-width: 1px;
+ border-radius: 5px;
 }
