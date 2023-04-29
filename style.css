@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0 auto;
   font-family: "Inter", sans-serif;
+  margin: 0 aut;
 }
 
 /*
@@ -423,7 +424,6 @@ STEPS
   height: 100%;
   margin: 30px 0;
   width: 100%;
-  
 }
 
 .step-img-container {
@@ -663,8 +663,6 @@ PRICING
   margin: 0 -2rem;
 }
 
-
-
 .middle__card .card__feature {
   margin-top: 20px;
   font-weight: 500;
@@ -679,7 +677,6 @@ PRICING
   margin-top: 24px;
   padding: 0.75rem 4rem;
 }
-
 
 .middle__card h4 {
   font-size: 20px;
@@ -820,7 +817,7 @@ s
 
 */
 
-.Star-column{
+.Star-column {
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
@@ -829,14 +826,92 @@ s
   margin-top: 40px;
 }
 
-.tesitmonials-img-wrapper{
-  display: flex; align-items: center;
+.tesitmonials-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.testimonials-container{
+.testimonials-container {
   display: flex;
 }
 
-.testimonials-logo{
-  width: 640px;
+.testimonials-logo {
+  width: 700px;
+}
+
+.review-title {
+  color: rgb(36 62 99);
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+.review-text {
+  line-height: 20px;
+  color: #718096;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.reviewer {
+  display: flex;
+  margin: 0;
+}
+
+.reviewer-wrapper {
+  margin: 0;
+}
+
+.reviewer-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.reviewer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+}
+
+.reviewer-title {
+  font-size: 24px;
+  padding: 6px 0;
+  font-weight: 600;
+}
+
+.reviewer-subtitle {
+  font-size: 15px;
+  color: #718096;
+}
+
+.reviewer-margin-fix {
+  margin: 0;
+}
+
+
+.arrow-button {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+  padding: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255 / var(--tw-text-opacity));
+  cursor: pointer;
+  border-style: none;
+
+}
+
+.arrow {
+  width: 1rem;
+  stroke-width: 3;
+  display: flex; 
+  align-items: center;
+  margin: 0;
+  position: relative;
 }
