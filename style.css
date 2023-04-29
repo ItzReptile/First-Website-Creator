@@ -5,11 +5,6 @@
   margin: 0 aut;
 }
 
-/*
-
-I copied all of the planning,since it was rough :<
-
-*/
 
 .blob {
   pointer-events: none;
@@ -52,7 +47,6 @@ I copied all of the planning,since it was rough :<
   align-items: center;
   justify-content: space-between;
   padding-top: 2rem;
-  padding-bottom: 5rem;
 }
 
 .nav-space {
@@ -914,8 +908,7 @@ s
   position: relative;
 }
 
-
-.container-box{
+.container-box {
   max-width: 1240px;
   width: 100%;
   margin: 0;
@@ -944,7 +937,6 @@ s
   padding-left: 15rem;
   padding-right: 15rem;
   display: flex;
-
 }
 
 .purple-text-wrapper {
@@ -963,27 +955,26 @@ s
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
- width: 100%;
+  width: 100%;
 }
 
-.contact-button{
+.contact-button {
   border-style: solid;
 }
 
-.get-started{
-  background-color:rgb(245 101 101);
+.get-started {
+  background-color: rgb(245 101 101);
 }
 
 .provider {
- text-decoration: none;
- padding:18px 36px;
- color: white;
- margin-right: 6px;
- border-radius: 122px;
+  text-decoration: none;
+  padding: 18px 36px;
+  color: white;
+  margin-right: 6px;
+  border-radius: 122px;
 }
 
-
-.footer{
+.footer {
   position: relative;
   margin-left: -2rem;
   margin-right: -2rem;
@@ -993,4 +984,124 @@ s
   padding: 5rem 2rem;
   --tw-text-opacity: 1;
   color: rgb(247 250 252 / var(--tw-text-opacity));
+}
+
+.links__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/5);
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.link__heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.link__items{
+  color: white;
+}
+
+.link__item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.link-anchor{
+  color: whitesmoke;
+}
+
+.link__item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  margin: 0 5rem;
+}
+
+
+.footer__anchor {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer__logo__img {
+  position: relative;
+  display: flex;
+}
+
+
+.footer__logo {
+  width: 10%;
+
+}
+
+
+.footer__logo__img__word {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.footer__info__icons{
+  margin: 0 15px;
+}
+
+.svg-inline{
+  width:25px;
+  height: 25px;
+  color: black;
+}
+
+
+.footer__link__icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.container{
+  padding: 50px 0;
+  width: 100vw;
+   background-color: rgb(100 21 255);
 }
