@@ -4,6 +4,12 @@
   font-family: "Inter", sans-serif;
 }
 
+/*
+
+I copied all of the planning,since it was rough :<
+
+*/
+
 .blob {
   pointer-events: none;
   position: absolute;
@@ -417,6 +423,7 @@ STEPS
   height: 100%;
   margin: 30px 0;
   width: 100%;
+  
 }
 
 .step-img-container {
@@ -813,3 +820,23 @@ s
 
 */
 
+.Star-column{
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: currentcolor;
+  color: rgba(246, 173, 85);
+  margin-top: 40px;
+}
+
+.tesitmonials-img-wrapper{
+  display: flex; align-items: center;
+}
+
+.testimonials-container{
+  display: flex;
+}
+
+.testimonials-logo{
+  width: 640px;
+}
