@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  padding: 0 auto;
+  padding: 0;
   font-family: "Inter", sans-serif;
-  margin: 0 aut;
+  margin: 0;
 }
 
 .blob {
@@ -16,24 +16,15 @@
   opacity: 0.05;
 }
 
-.blobv2 {
-  pointer-events: none;
-  position: absolute;
-  left: -8.5rem;
-  bottom: 2rem;
-  z-index: -9;
-  height: 16rem;
-  width: 16rem;
-  opacity: 0.05;
-}
+
 
 .nav-page {
   min-height: 90vh;
   overflow: hidden;
   font-family: Inter, system-ui;
-  --tw-text-opacity: 1;
   color: rgb(36 62 99 / var(--tw-text-opacity));
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .hope {
@@ -125,7 +116,7 @@ a {
   font-weight: 700;
   line-height: 1.25;
   color: rgb(26 32 44);
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .introduction-about-subtitle {
@@ -346,8 +337,9 @@ WORK
 */
 
 .work {
-  padding: 4rem 0;
-  margin: 6rem 0;
+  padding: 6rem 1rem;
+  margin: 2rem 0;
+  width: 100% ;
 }
 
 .work-column {
@@ -364,7 +356,6 @@ WORK
   letter-spacing: 2px;
   font-size: 16px;
   font-weight: 700;
-  margin: 0;
 }
 
 .work-subtitle {
@@ -373,7 +364,7 @@ WORK
   font-weight: 900;
   margin: 0;
   text-align: left;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 .work-about {
@@ -387,6 +378,7 @@ WORK
 
 .work-container {
   display: flex;
+
 }
 
 .work-img {
@@ -469,6 +461,7 @@ STEPS
 
 .container-steps {
   display: flex;
+  padding: 16px 0;
 }
 
 .container-reigster {
@@ -533,6 +526,7 @@ VALUES
   max-width: 550px;
   line-height: 28px;
   font-size: 18px;
+  padding-top: 16px;
 }
 
 .value-safer {
@@ -597,7 +591,7 @@ PRICING
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1238px;
+  width: 100%;
 }
 
 .pricing-title {
@@ -624,62 +618,47 @@ PRICING
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: relative;
-  width: 1240px;
+  max-width: 1240px;
 }
 
 .plan {
-  width: calc(100% / 3);
+  width: calc(100%/3);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 24px;
   position: relative;
   margin-top: 64px;
-  margin-left: -40px;
-  max-width: 24rem;
-  z-index: 100;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  margin-right: 16px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e6ebf293;
+  border-width: 0 2px 2px 2px;
+  padding: 8px 16px 0 16px;
+  text-align: center;
   overflow: hidden;
-  background-color: #fff;
-  border-radius: 10px;
 }
+
 
 .top__card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  text-transform: uppercase;
+  padding: 32px 0;
   line-height: 1.625;
 }
+
 
 .middle__card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
-  padding: 2rem;
-  border: 2px solid rgb(226, 232, 240);
-  margin: 0 -2rem;
+  margin: 0 -16px;
+  padding: 32px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  border-width: 2px 0;
 }
 
-.middle__card .card__feature {
-  margin-top: 20px;
-  font-weight: 500;
-  font-size: 16px;
-  color: #718096;
-}
 
 .bottom__card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 24px;
-  padding: 0.75rem 4rem;
+  padding: 32px 16px;
 }
 
 .middle__card h4 {
@@ -857,14 +836,13 @@ s
   color: #718096;
   font-weight: 500;
   font-size: 16px;
+  padding: 16px 0;
 }
 
 .reviewer {
   display: flex;
   margin: 0;
-  justify-content: baseline;
   align-items: center;
-  justify-content: center;
 }
 
 .reviewer-wrapper {
@@ -921,7 +899,6 @@ s
   display: flex;
   align-items: center;
   margin: 0;
-  position: relative;
 }
 
 .container-box {
@@ -1093,7 +1070,8 @@ hr {
 }
 
 .footer__info__icons {
-  margin: 0 15px;
+  margin: 0 16px;
+  display: flex;
 }
 
 
@@ -1110,6 +1088,7 @@ hr {
   border-radius: 100%;
   padding: 10px;
   margin: 5px;
+  display: flex;
 }
 
 .container {
@@ -1118,7 +1097,7 @@ hr {
   background-color: rgb(100 21 255);
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   .introduction {
     display: flex;
     flex-direction: column;
