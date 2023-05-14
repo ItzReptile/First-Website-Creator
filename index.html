@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="button.js"></script>
   </head>
   <body class="hope">
     <section class="nav-page">
@@ -27,14 +28,14 @@
             <a href="" class="nav-link-login nav-links-hover">Login</a>
             <a href="" class="nav-link-sighup nav-links-hover">Sign Up</a>
           </div> 
-          <button class="btn__menu">
+          <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-bars"></i>
           </button>
           <div class="menu__backdrop">
-            <button class="btn__menu btn__mneu--close">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
               <i class="fas fa-times"></i>
             </button>
-            <ul>
+            <ul class="menu__links">
               <li class="menu__list">
                  <a href="#" class="menu__link">About</a>
                 </li>
@@ -357,7 +358,7 @@
            <h1 class="reviewer-margin-fix reviewer-title">Charloette hale</h1>
            <h2 class="reviewer-margin-fix reviewer-subtitle">Director,Delos Inc.</h2>
           </div>
-          <div class="arrow">
+          <div class="arrow-container">
             <button class="arrow-button value__img---wrapper">
               <svg class="arrow" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg></button>
               <button class="arrow-button value__img---wrapper">
